@@ -1,5 +1,3 @@
-![](https://thevinylfactory.com/wp-content/uploads/2019/06/joy-division2.jpg)
-
 # Yorkshire Cetacean Recording Project (YCRP)
 
 ## My cetacean sightings data from Kettleness (North Yorkshire)
