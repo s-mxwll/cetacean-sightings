@@ -1,8 +1,8 @@
-# Yorkshire Cetacean Recording Project (YCRP)
+# Yorkshire Cetacean Recording Project (YCRP): Kettleness
 
-## My cetacean sightings data from Kettleness (North Yorkshire)
+## My cetacean sightings data
 
-Including land-based surveys from Kettleness and other ad-hoc sightings along the Yorkshire Coast.
+Including land-based surveys from Kettleness (North Yorkshire) and other ad-hoc sightings around Whitby.
 
 ### Data dictionary
 
@@ -30,11 +30,13 @@ Including land-based surveys from Kettleness and other ad-hoc sightings along th
 
 ### Produced in script
 
-| variable             | class     | description                                                                  |
-|----------------------|-----------|------------------------------------------------------------------------------|
-| `tide_direction`     | character | Ebb or Flood                                                                 |
-| `dm`                 | numeric   | Time since last high tide (mins)                                             |
-| `dt`                 | numeric   | Time between high and low tide (mins)                                        |
-| `dh`                 | numeric   | Height difference between high and low tide in the tidal cycle _i_           |
-| `tide_flow`          | numeric   | Rate of tide flow (Isojunno _et al_. (2012; Mar Ecol Prog Ser *448* 155–170) |
-| `mins_since_sunrise` | numeric   | Time between sunrise and start of survey (mins)                              |
+The following variables are derived from the raw data:
+
+| variable             | class     | description                                                                    |
+|----------------------|-----------|--------------------------------------------------------------------------------|
+| `tide_direction`     | character | Ebb or Flood                                                                   |
+| `dm`                 | numeric   | Time since last high tide (mins)                                               |
+| `dt`                 | numeric   | Time between high and low tide (mins)                                          |
+| `dh`                 | numeric   | Height difference between high and low tide in the tidal cycle _i_             |
+| `tide_flow`          | numeric   | Rate of tide flow (Isojunno _et al_. (2012; Mar Ecol Prog Ser **448** 155–170) |
+| `mins_since_sunrise` | numeric   | Time between sunrise and start of survey (mins)                                |
