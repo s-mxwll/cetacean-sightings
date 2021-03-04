@@ -30,11 +30,12 @@ Including land-based surveys from Kettleness and other ad-hoc sightings along th
 
 ### Produced in script
 
-| variable           | class     | description                                                        |
-|--------------------|-----------|--------------------------------------------------------------------|
-| tide_direction     | character | Ebb or Flood                                                       |
-| _m_{i}_            | numeric   | Time since last high tide (mins)                                   |
-| \Delta$_t_{i}_     | numeric   | Time between high and low tide (mins)                              |
-| \Delta$_t_{i}_     | numeric   | Height difference between high and low tide in the tidal cycle _i_ |
-| tide_flow          | numeric   | $-sin(2\pi_m_{i}_\Delta$ti) \times \Delta$hi$                      |
-| mins_since_sunrise | numeric   | Time between sunrise and start of survey (mins)                    |
+| variable             | class     | description                                                        |
+|----------------------|-----------|--------------------------------------------------------------------|
+| `tide_direction`     | character | Ebb or Flood                                                       |
+| `_m_{i}_`            | numeric   | Time since last high tide (mins)                                   |
+| `\Delta_t_{i}_`      | numeric   | Time between high and low tide (mins)                              |
+| `\Delta_t_{i}_`      | numeric   | Height difference between high and low tide in the tidal cycle _i_ |
+| `tide_flow`          | numeric   | $-sin(2\pi_m_{i}_\Delta$ti) \times \Delta$hi$                      |
+| `mins_since_sunrise` | numeric   | Time between sunrise and start of survey (mins)                    |
+
