@@ -25,12 +25,10 @@ Including land-based surveys from Kettleness (North Yorkshire) and other ad-hoc 
 | `height_high_tide` | numeric   | Height of high tide in tidal cycle _i_ (m)                      |
 | `height_low_tide`  | numeric   | Height of low tide in tidal cycle _i_ (m)                       |
 | `sunrise`          | date-time | Time of sunrise                                                 |
-| `taxon`            | character | Cetacean (common name)                                          |
+| `taxon`            | character | Species (common name)                                           |
 | `count`            | integer   | Number of individuals                                           |
 
-### Produced in script
-
-The following variables are derived from the raw data:
+### Data dictionary (derived in script)
 
 | variable             | class     | description                                                                    |
 |----------------------|-----------|--------------------------------------------------------------------------------|
