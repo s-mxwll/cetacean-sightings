@@ -1,13 +1,34 @@
+![](https://thevinylfactory.com/wp-content/uploads/2019/06/joy-division2.jpg)
+
 # Yorkshire Cetacean Recording Project (YCRP)
 
-My cetacean sightings data from Kettleness (North Yorkshire).
+## My cetacean sightings data from Kettleness (North Yorkshire)
 
-Data:
+Including land-based surveys from Kettleness and other ad-hoc sightings along the Yorkshire Coast.
 
-date: date<br>
-location: where? (chr)<br>
-survey_type: land- or boat-based (chr)<br>
-start_time: date-time<br>
-end_time: date-time<br>
-tz: time zone(chr)<br>
-sea_state: 1-5 scale (int)<br>
+### Data dictionary
+
+| variable           | class     | description                           |
+|:-------------------|:----------|:--------------------------------------|
+| `date`             | date      |                                       |
+| `location`         | character |                                       |
+| `survey_type`      | character | Land- or boat-based survey            |
+| `start_time`       | date-time |                                       |
+| `end_time`         | date-time |                                       |
+| `tz`               | character | Time Zone (GMT/BST)                   |
+| `sea_state`        | integer   |                                       |
+| `swell_height`     | integer   |                                       |
+| `wind_dir`         | character | Compass bearing                       |
+| `vis`              | character | Four-point scale                      |
+| `wind_speed`       | numeric   | Wind speed (kph)                      |
+| `time_last_high`   | date-time | Time of last high tide                |
+| `time_high_i`      | date-time | Time of high tide in tide cycle _i_   |
+| `time_low_i`       | date-time | Time of low tide in tidal cycle _i_   |
+| `height_high_tide` | numeric   | Height of high in tidal cycle _i_ (m) |
+| `height_low_tide`  | numeric   | Height of low in tidal cycle _i_ (m)  |
+| `sunrise`          | date-time | Time of sunrise                       |
+| `taxon`            | character | Cetacean (common name)                |
+| `count`            | integer   | Number of individuals                 |
+
+# Produced in script
+
