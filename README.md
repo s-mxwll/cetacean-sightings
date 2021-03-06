@@ -15,7 +15,7 @@ Including land-based surveys from Kettleness (North Yorkshire) and other ad-hoc 
 | `end_time`         | date-time | Survey end time                                                 |
 | `tz`               | character | GMT or BST                                                      |
 | `sea_state`        | integer   | [Beaufort scale](https://en.wikipedia.org/wiki/Beaufort_scale)  |
-| `swell`            | integer   | Light: <1 m; Moderate: 1-2 m; Heavy: >2 m                       |
+| `swell`            | character | Light: <1 m; Moderate: 1-2 m; Heavy: >2 m                       |
 | `wind_direction`   | character | Compass bearing                                                 |
 | `visibility`       | character | Poor: <1 km; Moderate: 1-5 km; Good: 6-10 km; Excellent: 10+ km |
 | `wind_speed`       | numeric   | Wind speed (kph)                                                |
@@ -36,5 +36,5 @@ Including land-based surveys from Kettleness (North Yorkshire) and other ad-hoc 
 | `dm`                 | numeric   | Time since last high tide (mins)                                               |
 | `dt`                 | numeric   | Time between high and low tide (mins)                                          |
 | `dh`                 | numeric   | Height difference between high and low tide in the tidal cycle _i_             |
-| `tide_flow`          | numeric   | Rate of tide flow (Isojunno _et al_. (2012; Mar Ecol Prog Ser **448** 155–170) |
+| `tide_flow`          | numeric   | Rate of tide flow (Isojunno _et al_., 2012 Mar Ecol Prog Ser **448**: 155–170) |
 | `mins_since_sunrise` | numeric   | Time between sunrise and start of survey (mins)                                |
